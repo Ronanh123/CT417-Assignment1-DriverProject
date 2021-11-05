@@ -9,7 +9,7 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java-library'
-	id 'war'
+    id 'war'
 }
 
 repositories {
@@ -34,7 +34,7 @@ dependencies {
     implementation 'com.github.Ronanh123:CT417---Assignment-1:9a68c89ea9'
 
 }
+
 test{
 	useJunit()
-	
 	}
